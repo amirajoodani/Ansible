@@ -1,0 +1,38 @@
+---
+
+- name: correct timezone
+  hosts: all
+  tasks:
+
+  - name: Remove file /etc/localtime
+    ansible.builtin.file:
+      path: "/etc/localtime"
+      state: absent
+
+  - name: Create a symbolic link to /etc/localtime
+    ansible.builtin.file:
+      src: /usr/share/zoneinfo/Asia/Tehran
+      dest: /etc/localtime
+      mode: '0755'
+      state: link
+
+  - name: make file for TimeZone In /etc/sysconfig/clock 
+    ansible.builtin.file:
+      path: /etc/sysconfig/clock
+      state: touch
+      mode: '0755'
+
+  - name: write Timezone in file 
+    copy:
+      dest: "/etc/sysconfig/clock"
+      content: |
+        ZONE="Asia/Tehran"
+        UTC=false
+        ARC=false
+
+  - name: sync Hardware With New TimeZone
+    shell: hwclock --systohc --localtime
+
+  - name: Print New Time Zone
+    shell: hwclock
+        
