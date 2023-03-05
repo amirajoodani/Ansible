@@ -5,4 +5,5 @@ in this repository we are going to use ansible to manage or install packge or se
  #ansible-playbook roles/tasks/playbook.yml -i inventory
  
  
-![timezonepic](https://user-images.githubusercontent.com/42912741/222964433-d71e079f-35b5-4358-a89c-8280c37a7bfd.JPG)
+![timezonepic](https://user-images.githubusercontent.com/42912741/222965252-7a29f14e-af00-4559-89c2-c41dd7b5b257.JPG)
+
