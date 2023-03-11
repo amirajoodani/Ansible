@@ -1,0 +1,8 @@
+---
+
+mariadb_root_pw: "135792468"
+zabbix_db_user: "root"
+zabbix_db_name: "zabbix"
+zabbix_db_pw: "xyz12345"
+# use ansible-vault to encrypt the secrets
+
