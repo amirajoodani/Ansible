@@ -9,3 +9,5 @@ in this repository we are going to use ansible to manage or install packge or se
 
 # 2- Zabbix: with this project you can install zabbix based on centos distro . If You have Centos7 , Zabbix 5 Will be installed And If you have centos8 , Zabbix 6 will be Installed . 
 note: as mentioned in zabbix docs ,you can not install zabbix 6 on centos7 because  centos7 unsupported after 2024  
+
+![ansible-zabbix](https://user-images.githubusercontent.com/42912741/224503583-bdd43a04-458d-4e33-83fc-83dd6ca6e9f1.JPG)
