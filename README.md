@@ -14,6 +14,9 @@ note: as mentioned in zabbix docs ,you can not install zabbix 6 on centos7 becau
 
 # 3 Install zabbix proxy with ansible:<br>
 os:centos8 <br>
+change your inventory file and then execute:<br>
+#ansible-playbook site.yml
+
 
 ![zabbixproxy-withansible](https://user-images.githubusercontent.com/42912741/235248694-ea0a5b91-462a-468d-bf6b-8db832e56cf4.JPG)
 
