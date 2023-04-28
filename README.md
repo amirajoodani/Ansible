@@ -11,3 +11,10 @@ in this repository we are going to use ansible to manage or install packge or se
 note: as mentioned in zabbix docs ,you can not install zabbix 6 on centos7 because  centos7 unsupported after 2024  
 
 ![ansible-zabbix](https://user-images.githubusercontent.com/42912741/224503583-bdd43a04-458d-4e33-83fc-83dd6ca6e9f1.JPG)
+
+# 3 Install zabbix proxy with ansible:<br>
+os:centos8 <br>
+
+![zabbixproxy-withansible](https://user-images.githubusercontent.com/42912741/235248694-ea0a5b91-462a-468d-bf6b-8db832e56cf4.JPG)
+
+
