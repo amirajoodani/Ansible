@@ -1,0 +1,4 @@
+- name: setup zabbix-hostgroup
+  hosts: zabbixserver
+  roles:
+   - server
