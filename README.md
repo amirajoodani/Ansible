@@ -20,4 +20,14 @@ change your inventory file and then execute:<br>
 
 ![zabbixproxy-withansible](https://user-images.githubusercontent.com/42912741/235248694-ea0a5b91-462a-468d-bf6b-8db832e56cf4.JPG)
 
+# 4 create hostgroup in zabbix with ansible <br>
+
+os :ubuntu 20.04 <br>
+ansible version : 2.12 <br>
+python version: 3.9 <br>
+
+note: for using hostgroup module , the version of ansible is important ! this module does not work with ansible 2.9 or before <br>
+
+![zabbix-hostgroup](https://github.com/amirajoodani/Ansible/assets/42912741/5f129165-7408-4d56-96c6-8da5a0e851fb)
+
 
