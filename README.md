@@ -30,4 +30,10 @@ note: for using hostgroup module , the version of ansible is important ! this mo
 
 ![zabbix-hostgroup](https://github.com/amirajoodani/Ansible/assets/42912741/5f129165-7408-4d56-96c6-8da5a0e851fb)
 
+# 5 create host in zabbix with ansible <br>
+
+just run ansible-playbook site.yml
+
+https://github.com/amirajoodani/Ansible/blob/main/zabbix-host/zabbix-host.JPG
+
 
